@@ -1,6 +1,7 @@
 {
   "name": "vue-project",
   "version": "0.0.0",
+  "base":"/",
   "private": true,
   "type": "module",
   "scripts": {
