@@ -62,7 +62,7 @@ jobs:
         with:
           token: ${{ secrets.homePageToken }}
           branch: gh-pages  # default: gh-pages
-          folder: /
+          folder: .
           clean: true # Automatically remove deleted files from the deploy branch
           # commit-message: ${{ github.event.head_commit.message }} # default: `Deploying to gh-pages from @ 3238feb 🚀`
           # commit-message: "deploy: ${{ github.sha }} (${{ github.event.head_commit.message }}) 🚀 "
